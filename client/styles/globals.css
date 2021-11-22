@@ -15,3 +15,49 @@ a {
   box-sizing: border-box;
   /* border: 1px solid gray; */
 }
+
+/* overrides */
+
+@media (min-width: 500px) {
+  .css-96uuyl {
+    width: 40% !important;
+  }
+}
+
+.css-1jruifh-MuiStack-root {
+  width: unset !important;
+  margin-left: 30px;
+  height: 45px !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: unset !important;
+}
+
+.css-viou3o-MuiAutocomplete-root {
+  width: unset;
+}
+
+.css-viou3o-MuiAutocomplete-root .MuiOutlinedInput-root {
+  height: 50px;
+  padding: 1px;
+  padding-left: 40px;
+}
+
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .css-viou3o-MuiAutocomplete-root .MuiOutlinedInput-root {
+    height: 50px;
+    padding: 1px;
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 0px) and (orientation: landscape) {
+  .css-1t29gy6-MuiToolbar-root {
+    min-height: 60px;
+  }
+}

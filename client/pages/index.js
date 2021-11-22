@@ -7,7 +7,8 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 // components
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar/NavBar";
+import Button from "../components/Button/Button";
 
 export default function Home() {
   return (
