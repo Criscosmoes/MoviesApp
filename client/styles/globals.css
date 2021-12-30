@@ -14,3 +14,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.show {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .show {
+    display: block;
+  }
+}
+
+* {
+  border: 1px solid gray;
+}
